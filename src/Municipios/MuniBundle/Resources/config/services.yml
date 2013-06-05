@@ -1,0 +1,7 @@
+parameters:
+#    municipios_muni.example.class: Municipios\MuniBundle\Example
+
+services:
+#    municipios_muni.example:
+#        class: %municipios_muni.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

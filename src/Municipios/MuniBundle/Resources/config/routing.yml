@@ -1,0 +1,3 @@
+municipios_muni_homepage:
+    pattern:  /
+    defaults: { _controller: MunicipiosMuniBundle:Default:index }

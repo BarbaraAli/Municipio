@@ -1,0 +1,4 @@
+municipios_muni:
+    resource: "@MunicipiosMuniBundle/Controller/"
+    type:     annotation
+    prefix:   /

@@ -1,0 +1,14 @@
+{% extends "MunicipiosMuniBundle::index.html.twig" %}
+
+{% block title "Municipios" %}
+
+{% block content_header '' %}
+
+{% block content %}
+    <h1 class="title">Municipios</h1>
+    <ul id="demo-list">
+        <li><a href="{{ path('muni_create')}}"</a></li>
+        <li><a href="{{ path('muni_update')}}"</a></li>
+        {# <li><a href="{{ path('_demo_contact') }}">Send a Message</a></li> #}
+    </ul>
+{% endblock %}
